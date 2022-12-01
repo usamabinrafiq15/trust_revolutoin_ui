@@ -1,0 +1,60 @@
+.about{
+    margin-top: 15rem;
+    display: flex;
+}
+.about_head{
+    font-size: 1.5rem;
+    color: #584490;
+    padding-bottom: 20px;
+    font-weight: bold; 
+}
+.line{
+    width: 85px;
+    height: 5px;
+    background-color: #584490;
+    border-radius: 10px ;
+    margin-top: 5px;
+}
+.about_title{
+    font-size: 3rem;
+    color: #202020;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.about_description{
+    color: #bcbcbc;
+    padding-bottom: 5rem;
+}
+.about_left img{
+    width: 730px;
+}
+.icons img{
+    background-color: #584490;
+    padding: 5px;
+    border-radius: 10px;
+    width: 60px;
+    margin-right: 20px;
+}
+.options_things{
+    display: flex;
+    /* justify-content: center; */
+}
+.options_title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.options_descriptions p{
+    margin: 0;
+    color: #bcbcbc;
+    font-size: .8rem;
+}
+.options_heading{
+    margin-top: 20px;
+}
+.options{
+margin-left: 100px;
+}
+
+.options_down{
+    padding-bottom: 5rem;
+}

@@ -1,0 +1,119 @@
+.team_head{
+    font-size: 1.5rem;
+    color: #584490;
+    padding-bottom: 20px;
+    font-weight: bold; 
+}
+.line_team{
+    width: 75px;
+    height: 5px;
+    background-color: #584490;
+    border-radius: 10px ;
+    margin-top: 5px;
+}
+.team_center{
+    display: flex;
+    justify-content: center;
+}
+.team_heading{
+    display: flex;
+    justify-content: center; 
+}
+.team_title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.team_description{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem  ;
+    padding-bottom: 4rem  ;
+}
+.team_description_para p{
+    margin: 0;
+    color: #bcbcbc;
+    font-size: .8rem;
+    text-align: center;
+
+}
+.team_box{
+   
+    padding-bottom: 10rem;
+}
+.team_box_things:hover{
+    background-color: #584490;
+    color: #fefefe !important;
+    
+}
+.team_box_things{
+    width: 500px;padding: 25px;
+    background: transparent;
+    border: 1px solid #bcbcbc;
+    border-radius: 20px;
+   
+}
+.team_img{
+    font-size: 80px;
+    color: #bcbcbc;  
+}
+.team_img:hover{
+    font-size: 80px;
+    color: #fefefe;  
+}
+.team_box_title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 2rem 0rem;
+}
+.team_box_description{
+    font-size: .8rem;
+    color: #bcbcbc;
+}
+.co{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #bcbcbc;
+}
+/* .co:hover{
+    color: #fefefe;
+} */
+
+.whole_team{
+    position: relative;
+}
+.positioned_team{
+    position: relative;
+}
+.team_middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #584490;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    padding: 50px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -90px;
+}
+.team_middle_title{
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.swiper-slide {
+    flex-shrink: 1 !important;
+}
+.swiper-wrapper{
+    height: 8% !important ;
+    padding-bottom: 15rem;
+}
+.swiper-pagination-bullet-active{
+    background: #584490 !important;
+}
+.swiper-button-prev{
+display: none !important;
+}
+.swiper-button-next{
+    display: none !important;  
+}

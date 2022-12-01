@@ -1,0 +1,187 @@
+.pricing {
+    padding: 10rem 0rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pricing_head {
+    font-size: 1.5rem;
+    color: #fefefe;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.line_pricing {
+    width: 85px;
+    height: 5px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.pricing_title {
+    font-size: 3rem;
+    color: #fefefe;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.pricing_description {
+    color: #bcbcbc;
+    padding-bottom: 5rem;
+}
+
+.pricing_side {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.checkbox_options {
+    color: #fefefe;
+    font-weight: 300;
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+.pricing_checks {
+    display: flex;
+}
+
+.side2 {
+    margin-left: 70px;
+}
+
+.pricing_left {
+    background-color: #fefefe;
+    border-radius: 20px;
+    padding: 30px;
+    width: 500px;
+
+}
+
+.pricing_left_card_title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card_descriptions {
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+.card_descriptions p {
+    margin: 0;
+    color: #bcbcbc;
+}
+
+.card_rupee {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.sym {
+    color: #bcbcbc;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.rupee {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* ----------------------toggle icons-------------- */
+
+.tgl {
+    display: none;
+}
+
+.tgl, .tgl:after, .tgl:before, .tgl *, .tgl *:after, .tgl *:before, .tgl+.tgl-btn {
+    box-sizing: border-box;
+}
+
+.tgl::-moz-selection, .tgl:after::-moz-selection, .tgl:before::-moz-selection, .tgl *::-moz-selection, .tgl *:after::-moz-selection, .tgl *:before::-moz-selection, .tgl+.tgl-btn::-moz-selection {
+    background: none;
+}
+
+.tgl::selection, .tgl:after::selection, .tgl:before::selection, .tgl *::selection, .tgl *:after::selection, .tgl *:before::selection, .tgl+.tgl-btn::selection {
+    background: none;
+}
+
+.tgl+.tgl-btn {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tgl+.tgl-btn:after, .tgl+.tgl-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+}
+
+.tgl+.tgl-btn:after {
+    left: 0;
+}
+
+.tgl+.tgl-btn:before {
+    display: none;
+}
+
+.tgl:checked+.tgl-btn:after {
+    left: 50%;
+}
+
+.tgl-light+.tgl-btn {
+    background: #f0f0f0;
+    border-radius: 2em;
+    padding: 2px;
+    transition: all 0.4s ease;
+}
+
+.tgl-light+.tgl-btn:after {
+    border-radius: 50%;
+    background: #fff;
+    transition: all 0.2s ease;
+}
+
+.tgl-light:checked+.tgl-btn {
+    background: #584490;
+}
+
+.button_big {
+    display: flex;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+.button_words {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.experience_button {
+
+    background: #584490;
+    color: #fefefe;
+    font-weight: bold;
+    padding: 20px 35px;
+    border-radius: 30px;
+}
+
+.experience {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,83 @@
+.contacts{
+    padding-top: 10rem;
+   
+}
+.contact_head{
+    font-size: 1.5rem;
+    color: #584490;
+    font-weight: bold; 
+}
+
+.line_contact{
+    width: 85px;
+    height: 5px;
+    background-color: #584490;
+    border-radius: 10px ;
+    margin-top: 5px;
+}
+.contact_head_left{
+    font-size: 1.5rem;
+    color: #584490;
+    padding-bottom: 20px;
+    font-weight: bold; 
+}
+
+.line_contact_left{
+    width: 125px;
+    height: 5px;
+    background-color: #584490;
+    border-radius: 10px ;
+    margin-top: 5px;
+    margin-bottom: 3rem;
+}
+.contact_right{
+    padding-left: 50px;
+}
+.contact_title{
+    font-size: 3rem;
+    color: #202020;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.contact_description{
+    color: #bcbcbc;
+    padding-bottom: 2rem;
+}
+
+.Contact_icons img{
+    background-color: #584490;
+    padding: 5px;
+    border-radius: 10px;
+    width: 60px;
+    margin-right: 20px;
+}
+.Contact_options_things{
+    display: flex;
+    /* justify-content: center; */
+}
+.Contact_options_title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Contact_options_descriptions p{
+    margin: 0;
+    color: #bcbcbc;
+    font-size: .8rem;
+}
+.Contact_options_heading{
+    margin-top: 20px;
+}
+/* .Contact_options{
+margin-left: 100px;
+} */
+
+.Contact_options_down{
+    padding-bottom: 5rem;
+}
+.submit_btn{
+    background-color: #584490;
+    color: #fefefe;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 20px 45px;
+}
